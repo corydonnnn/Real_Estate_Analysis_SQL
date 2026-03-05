@@ -84,12 +84,12 @@ The project contains the following sections:
 - `queries/` – contains SQL queries (`real_estate_analysis.sql`)
 - `README.md` – project description and instructions
 
-## How to Run
-1. Import all CSV files from `data/` into your SQL database (PostgreSQL, MySQL, etc.).
-2. Open `queries/real_estate_analysis.sql`.
-3. Run the queries to analyze:
+## 💻 How to Run
+1. Import all CSV files from `data/` into your SQL database.
+2. Open `queries/real_estate_analysis.sql` in your SQL client.
+3. Execute the queries to analyze:
    - Agent performance
    - Conversion rates
    - Top properties
    - Revenue per agent
-   - And more
+   - Other insights
