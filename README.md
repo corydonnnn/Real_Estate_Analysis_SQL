@@ -70,9 +70,26 @@ The project contains the following sections:
 - Grouping: `GROUP BY`  
 - Window functions: `COUNT(*) OVER (PARTITION BY ...)`  
 - Common Table Expressions (CTE)  
-- Filtering with `WHERE` and subqueries  
-- Ordering with `ORDER BY` and limiting results with `LIMIT`  
+- Filtering with `WHERE` and subqueries
+- Ordering with `ORDER BY` and limiting results with `LIMIT`
 
+  ## Repository Structure
+- `data/` – contains CSV files for each table:
+  - `agents.csv`
+  - `clients.csv`
+  - `properties.csv`
+  - `listings.csv`
+  - `viewings.csv`
+  - `deals.csv`
+- `queries/` – contains SQL queries (`real_estate_analysis.sql`)
+- `README.md` – project description and instructions
 
-
-Combine metrics into a dashboard for management insights
+## How to Run
+1. Import all CSV files from `data/` into your SQL database (PostgreSQL, MySQL, etc.).
+2. Open `queries/real_estate_analysis.sql`.
+3. Run the queries to analyze:
+   - Agent performance
+   - Conversion rates
+   - Top properties
+   - Revenue per agent
+   - And more
