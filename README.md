@@ -73,7 +73,8 @@ The project contains the following sections:
 - Filtering with `WHERE` and subqueries
 - Ordering with `ORDER BY` and limiting results with `LIMIT`
 
-  ## Repository Structure
+## Repository Structure
+
 - `data/` – contains CSV files for each table:
   - `agents.csv`
   - `clients.csv`
@@ -81,9 +82,18 @@ The project contains the following sections:
   - `listings.csv`
   - `viewings.csv`
   - `deals.csv`
-- `queries/` – contains SQL queries (`real_estate_analysis.sql`)
-- `README.md` – project description and instructions
 
+- `queries/` – contains SQL analysis queries  
+  - `real_estate_analysis.sql`
+
+- `dashboard/` – contains the Power BI dashboard file  
+  - `real_estate_dashboard.pbix`
+
+- `images/` – contains project visuals  
+  - `dashboard.png`
+
+- `README.md` – project description and instructions
+  
 ## 💻 How to Run
 1. Import all CSV files from `data/` into your SQL database.
 2. Open `queries/real_estate_analysis.sql` in your SQL client.
@@ -93,3 +103,7 @@ The project contains the following sections:
    - Top properties
    - Revenue per agent
    - Other insights
+  
+## Power BI Dashboard
+
+![Dashboard](images/dashboard.png)
